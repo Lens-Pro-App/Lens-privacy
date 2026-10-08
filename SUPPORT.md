@@ -1,229 +1,75 @@
-# Lens - Support & Help
+# Lens Pro — Support & Help
 
-Welcome to Lens support! This document will help you get the most out of your screen recording experience.
+Lens records tutorials and demos and prepares smaller media files for sharing. This guide covers Lens 1.2.0.
 
-## Table of Contents
-- [Getting Started](#getting-started)
-- [Common Issues](#common-issues)
-- [Frequently Asked Questions](#frequently-asked-questions)
-- [Credits & Subscriptions](#credits--subscriptions)
-- [Contact Us](#contact-us)
+## Getting started
 
----
+1. Install Lens from the Mac App Store. Version 1.2.0 requires macOS 14.6 or later.
+2. Allow Screen Recording in System Settings > Privacy & Security when prompted. Restart Lens if macOS asks you to.
+3. Choose a screen, window, region, or part of a window from the toolbar.
+4. Open Options to choose recording, audio, and appearance settings. Microphone and camera permissions are optional.
+5. Choose a save folder, then record. Drag the toolbar to a convenient location.
 
-## Getting Started
+New users receive five free credits. The toolbar also opens video compression and the optional Photos library tools.
 
-### First Launch
-1. Download and install Lens from the Mac App Store
-2. Grant Screen Recording permission when prompted (System Settings > Privacy & Security > Screen Recording)
-3. Grant Camera and Microphone permissions if you plan to use webcam overlay
-4. You'll start with 5 free credits to try the app
+## Common issues
 
-### System Requirements
-- macOS 13.0 (Ventura) or later
-- 200MB free disk space
-- Screen Recording permission
-- Optional: Camera and Microphone permissions for webcam overlay
+### Lens cannot capture the screen
 
----
+Check that Lens has Screen Recording permission in System Settings > Privacy & Security. Close and reopen Lens after changing that permission. Select the capture target again if the selected window has closed.
 
-## Common Issues
+### A recording does not save
 
-### Screen Recording Permission Not Working
+Check the save folder in Options and choose an accessible folder with enough free space. Lens reports failed operations; a failed recording does not spend a credit. If the problem continues, include the displayed error and the steps that triggered it when contacting support.
 
-**Problem:** App can't record screen even after granting permission.
+### Audio or webcam is missing
 
-**Solution:**
-1. Open System Settings
-2. Go to Privacy & Security > Screen Recording
-3. Make sure Lens is checked
-4. If already checked, uncheck it, restart Lens, then check it again
-5. You may need to restart your Mac
+Open the Audio or Appearance tab in Options and enable the feature you want. For microphone audio, check the selected input and Microphone permission. For the webcam, check Camera permission and whether another app is using the camera. System audio and microphone audio have separate controls.
 
-### Video File Won't Save
+### Compression fails or produces little saving
 
-**Problem:** Recording completes but file doesn't appear.
+Try a supported, playable source file and ensure there is enough free space for a new output. Some files are already efficiently compressed. Estimates can differ from the final result. A failed or skipped compression does not spend a credit; successful compression is charged only when it produces a smaller file.
 
-**Solution:**
-1. Check that you granted Files & Folders permission
-2. Try saving to Downloads folder instead of Desktop
-3. Make sure you have enough disk space
-4. Check System Settings > Privacy & Security > Files and Folders
+Standalone video compression keeps the source file. Choose a quality preset for your preferred balance of detail and size; HEVC and H.264 are available.
 
-### Webcam Not Appearing
+### Photos items cannot be compressed
 
-**Problem:** Webcam overlay doesn't show during recording.
+Photos access is optional and can be managed in System Settings > Privacy & Security > Photos. Items stored only in iCloud may need Apple to download the original first. Live Photos, paired photo resources, and animated images are left unchanged to preserve motion and frames.
 
-**Solution:**
-1. Grant Camera permission in System Settings > Privacy & Security > Camera
-2. Make sure no other app is using your camera
-3. Try restarting Lens
-4. Check that your camera is properly connected
+Replacing a supported Photos item requires confirmation. Photos manages replaced originals in Recently Deleted, subject to its recovery rules. Review the proposed change before confirming it.
 
-### Compression Failed
+## Credits & subscriptions
 
-**Problem:** Video compression doesn't work or crashes.
+- A successful recording uses one credit, including its automatic compression.
+- A successful compression that produces a smaller file uses one credit per item.
+- Failed or skipped operations do not spend a credit.
+- Credit packs contain 5, 10, 25, or 50 credits. Current localized prices appear in the app.
+- A Lens Pro monthly subscription provides unlimited recordings and compressions while active. It renews automatically until cancelled through your App Store account settings.
 
-**Solution:**
-1. Make sure the video file isn't corrupted
-2. Try a lower quality preset (Medium or Low instead of High)
-3. Ensure you have enough disk space (at least 2x the original file size)
-4. Try compressing a smaller video first to test
+Open the credits/subscription button on the toolbar to see purchase options.
 
-### Audio Not Recording
+### Restore Purchases
 
-**Problem:** Video has no audio even though microphone was selected.
+Restore Purchases checks your verified subscription and recovers eligible unfinished purchases. Consumable credit balances are stored locally; Restore Purchases does not transfer spent credits or synchronize a credit balance across Macs. Avoid removing app data if you need to preserve unused credits.
 
-**Solution:**
-1. Grant Microphone permission in System Settings > Privacy & Security > Microphone
-2. Check your microphone is selected in Lens settings
-3. Make sure your microphone volume isn't muted in System Settings
-4. Test your microphone in another app to verify it works
+### Manage or refund a purchase
 
----
+Manage subscriptions through your App Store account settings. Apple handles refund requests at [Report a Problem](https://reportaproblem.apple.com/).
 
-## Frequently Asked Questions
+## Privacy
 
-### How does the credit system work?
+Recording and compression run on your Mac. Lens has no account system, advertising, or automatic analytics. Optional Photos access and iCloud downloads use Apple's services. Send Feedback opens a mail draft containing support information and redacted diagnostic logs; review it before choosing to send it.
 
-- Each screen recording costs 1 credit
-- Each video compression costs 1 credit
-- New users get 5 free credits
-- You can purchase credit packs or subscribe for unlimited usage
-
-### What's the difference between subscription and credit packs?
-
-**Monthly Subscription ($9.99/month):**
-- Unlimited recordings
-- Unlimited compressions
-- Best value for regular users
-- Cancel anytime
-
-**Credit Packs:**
-- One-time purchase
-- Credits never expire
-- Best for occasional users
-- Available in 5, 10, 25, and 50 credit packs
-
-### Can I record hidden windows?
-
-Yes! This is one of Lens's unique features:
-1. Select "Window" recording mode
-2. Choose the window you want to record
-3. The recording continues even if the window is covered or minimized
-4. You can work on other tasks while recording
-
-### What video quality should I use?
-
-**Maximum Quality:**
-- Best for archival or professional use
-- Largest file sizes
-- H.264 or HEVC codec
-
-**High Quality:**
-- Great balance of quality and size
-- Recommended for most users
-- Good for tutorials and demos
-
-**Medium Quality:**
-- Smaller files, still good quality
-- Good for quick shares
-- Faster processing
-
-**Low Quality:**
-- Smallest files
-- Good for internal use or testing
-- Fastest processing
-
-### How much can compression reduce file size?
-
-Compression can reduce file sizes by:
-- 40-60% with High quality preset
-- 60-75% with Medium quality preset
-- 75-90% with Low quality preset
-
-Actual results vary based on the original video content.
-
-### Does Lens collect my data?
-
-No. Lens processes everything locally on your Mac. No recordings, metadata, or usage data is transmitted to external servers. Your privacy is guaranteed.
-
-### Can I use Lens for commercial projects?
-
-Yes! There are no restrictions on commercial use. Record tutorials, product demos, courses, or any other content for commercial purposes.
-
----
-
-## Credits & Subscriptions
-
-### How to Purchase Credits
-
-1. Click the credits badge in the Lens toolbar
-2. Select a credit pack or subscription
-3. Complete purchase through the Mac App Store
-4. Credits are added immediately
-
-### How to Manage Subscription
-
-1. Open the Mac App Store
-2. Click your profile picture
-3. Go to "Manage Subscriptions"
-4. Find Lens and manage your subscription
-
-### Restoring Purchases
-
-If you purchased credits or a subscription on another device:
-1. Open Lens
-2. Click the credits badge
-3. Click "Restore Purchases"
-4. Your credits/subscription will sync
-
-### Refund Policy
-
-Refunds are handled by Apple:
-1. Go to reportaproblem.apple.com
-2. Sign in with your Apple ID
-3. Find your Lens purchase
-4. Request a refund
-
----
+Read the [privacy policy](https://lens-pro-app.github.io/Lens-privacy/privacy-policy.html) for details.
 
 ## Contact Us
 
-### Email Support
-For technical issues, feature requests, or general questions:
-**Lens_pro_app@outlook.com**
+For technical issues or feature requests, email **Lens_pro_app@outlook.com**.
 
-Please include:
-- Your macOS version
-- Description of the issue
-- Steps to reproduce (if applicable)
-- Screenshots if relevant
-
-### GitHub
-Report bugs or request features:
-**https://github.com/Lens-Pro-App**
-
-### Response Time
-We aim to respond to all inquiries within 24-48 hours.
-
----
-
-## Privacy Policy
-
-View our complete privacy policy:
-**https://lens-pro-app.github.io/Lens-privacy/privacy-policy.html**
-
----
+Include your macOS version, Lens version, the steps to reproduce the issue, and any displayed error. Share screenshots only after checking that they contain no private content. Please do not include passwords, payment information, or personal recordings.
 
 ## Credits
 
 Lens is based on EasyDemo by Daniel Oquelis, released under the MIT License.
 
----
-
-**Thank you for using Lens!**
-
-We're constantly improving the app. If you have suggestions or feedback, we'd love to hear from you.
-
-*Last updated: December 2024*
+Last updated: 8 October 2026.
