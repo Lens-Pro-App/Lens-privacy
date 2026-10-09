@@ -30,7 +30,13 @@ Open the Audio or Appearance tab in Options and enable the feature you want. For
 
 Try a supported, playable source file and ensure there is enough free space for a new output. Some files are already efficiently compressed. Estimates can differ from the final result. A failed or skipped compression does not spend a credit; successful compression is charged only when it produces a smaller file.
 
-Standalone video compression keeps the source file. Choose a quality preset for your preferred balance of detail and size; HEVC and H.264 are available.
+Standalone video compression keeps the source file by default. Choose a quality preset for your preferred balance of detail and size; HEVC and H.264 are available.
+
+### Replace original videos and keep their names
+
+Select videos in Compression, then enable **After compression > Replace original videos**. Choose the output folder and confirm **Compress and Replace**. Lens moves an original to Trash only after verifying a smaller compressed output. MP4 files retain their exact filename; other formats retain the original name with an .mp4 extension. An embedded video title is preserved when present.
+
+Larger outputs, changed originals, and filename conflicts do not replace the source. If replacement fails, Lens keeps the compressed copy without spending a credit and reports what needs attention. Recover an original by moving it from Finder's Trash to a folder before emptying Trash.
 
 ### Photos items cannot be compressed
 
@@ -72,4 +78,4 @@ Include your macOS version, Lens version, the steps to reproduce the issue, and 
 
 Lens is based on EasyDemo by Daniel Oquelis, released under the MIT License.
 
-Last updated: 8 October 2026.
+Last updated: 9 October 2026.
