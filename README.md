@@ -2,6 +2,7 @@
 
 Lens Pro is a Mac app for recording tutorials and demos and preparing smaller media files to share.
 
+- [iCloud storage full? Find large photos and videos on Mac — practical guide and demo](https://lens-pro-app.github.io/Lens-privacy/icloud-photos-storage-mac.html)
 - [Read the privacy policy](https://lens-pro-app.github.io/Lens-privacy/privacy-policy.html)
 - [Get help and contact support](https://github.com/Lens-Pro-App/Lens-privacy/blob/main/SUPPORT.md#contact-us)
 
